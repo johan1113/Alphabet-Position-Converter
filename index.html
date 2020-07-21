@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabet Position Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="page_header">
+        <h1>Alphabet Position Converter</h1>
+    </header>
+    
+    <section class="converter">
+        <header class="converter__header">
+            <div class="converter__header__title" id="input">
+                <p>Type your message here:</p>
+            </div>
+            <div class="converter__header__arrow">
+                <img src="./src/icons/arrow.svg" alt="">
+            </div>
+            <div class="converter__header__title" id="output">
+                <p>Number Conversion</p>
+            </div>
+        </header>
+        <section class="converter__container">
+            <div class="converter__container__input">
+                <textarea id="text_input" type="text" placeholder="put your text here"></textarea>
+            </div>
+            <div class="converter__container__output">
+                <textarea disabled id="text_output"></textarea>
+            </div>
+        </section>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
